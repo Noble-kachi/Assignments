@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THIRD ASSIGNMENT</title>
+    <link rel="stylesheet" href="style.css">
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #f4f4fc;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+
+.noble-main {
+    width: 80%;
+  
+    background: grey;
+
+    border-radius: 28px;
+
+    overflow: hidden;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+
+
+
+.top-section {
+    padding: 75px 80px 70px;
+
+    background: #ffffff;
+}
+
+.top-section h1 {
+    color: #2aa9a8;
+
+    font-size: 42px;
+    font-weight: 700;
+
+    margin-bottom: 45px;
+}
+
+.top-section h2 {
+    color: #a9df32;
+
+    font-size: 31px;
+    font-weight: 700;
+
+    margin-bottom: 40px;
+}
+
+.top-section p {
+    max-width: 1050px;
+
+    color: #91a6bb;
+
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+
+
+.bottom-section {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+.subscription {
+    background: #27b5b0;
+
+    color: white;
+
+    padding: 75px 80px 85px;
+}
+
+.subscription h2,
+.why-us h2 {
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+
+
+.price {
+    display: flex;
+    align-items: center;
+
+    gap: 25px;
+
+    margin-bottom: 25px;
+}
+
+.amount {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.period {
+    font-size: 28px;
+}
+
+
+.subscription p {
+    font-size: 24px;
+
+    margin-bottom: 55px;
+}
+
+
+.subscription button {
+    width: 100%;
+
+    padding: 22px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #b8e82b;
+
+    color: white;
+
+    font-size: 28px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.25s ease;
+}
+
+.subscription button:hover {
+    background: #a8d923;
+
+    transform: translateY(-2px);
+}
+
+
+.why-us {
+    background: #4bb9bd;
+
+    color: white;
+
+    padding: 75px 80px 85px;
+}
+
+.why-us ul {
+    list-style: none;
+
+    font-size: 24px;
+
+    line-height: 1.75;
+}
+
+.why-us li {
+    position: relative;
+}
+
+
+</style>
+
+
+</head>
+
+<body>
+
+    <main class="noble-main">
+
+        <!-- Top Section -->
+        <section class="top-section">
+
+            <h1>Join our community</h1>
+
+            <h2>30-day, hassle-free money back guarantee</h2>
+
+            <p>
+                Gain access to our full library of tutorials along with expert
+                code reviews. Perfect for any developers who are serious about
+                honing their skills.
+            </p>
+
+        </section>
+
+
+        <!-- Bottom Section -->
+        <section class="bottom-section">
+
+            <!-- Subscription -->
+            <div class="subscription">
+
+                <h2>Monthly Subscription</h2>
+
+                <div class="price">
+                    <span class="amount">$29</span>
+                    <span class="period">per month</span>
+                </div>
+
+                <p>Full access for less than $1 a day</p>
+
+                <button>Sign Up</button>
+
+            </div>
+
+
+            <!-- Why Us -->
+            <div class="why-us">
+
+                <h2>Why Us</h2>
+
+                <ul>
+                    <li>Tutorials by industry experts</li>
+                    <li>Peer &amp; expert code review</li>
+                    <li>Coding exercises</li>
+                    <li>Access to our GitHub repos</li>
+                    <li>Community forum</li>
+                    <li>Flashcard decks</li>
+                    <li>New videos every week</li>
+                </ul>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
